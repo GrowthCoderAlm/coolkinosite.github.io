@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт для получения информации о фильмах и актёрах.">
+    <meta name="keywords" content="кинопоиск фильмы онлайн актёры кино кинопоиск актёры кинопоиск фильмы актёры и роли популярные фильмы лучшие актёры кинопоиск апи база актёров фильмография актёров новинки кино топ фильмов рейтинг фильмов актёрский состав кинопоиск персоналии советские фильмы зарубежные фильмы российские актёры голливудские актёры">
+    <meta name="og:title" content="Киносайт - учебный проект, для получения информации о фильмах.">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <title>Your favorite films</title>
+</head>
+<body>
+
+    <div class="header-placeholder"></div>
+    
+
+    <main class="main">
+        <section class="hero">
+
+            <div class="container">
+
+                <h1 class="hero_title">Любимые фильмы!</h1>
+
+                <p class="hero_subtitle">Прямиком с кинопоиска.</p>
+
+                <a class="hero_cta" href="#subscribe">Подписаться</a>
+
+            </div>
+        </section>
+
+        <section class="films">
+            <div class="container">
+
+                <h2 class="films_title title">Подборка популярных фильмов</h2>
+
+                <div class="films_cards">
+                    <!-- карточки фильмов -->
+                     <button class="film_card">
+                        <div class="film_card-footer">
+                            <p class="film_card-year">2077г</p>
+                            <p class="film_card-rating">Оценка: 9.9</p>
+                        </div>
+                     </button>
+                </div>
+            </div>
+            <div class="paginator">
+                <button class="paginator_button arrow arrow_disabled" id="btn_paginator-prev">←</button>
+                <button class="paginator_button pag_num cur_page" id="btn_paginator-0">1</button>
+                <button class="paginator_button pag_num" id="btn_paginator-1">2</button>
+                <button class="paginator_button pag_num" id="btn_paginator-2">3</button>
+                <button class="paginator_button pag_num" id="btn_paginator-3">4</button>
+                <button class="paginator_button pag_num" id="btn_paginator-4">5</button>
+                <button class="paginator_button pag_num" id="btn_paginator-5">6</button>
+                <button class="paginator_button arrow" id="btn_paginator-next">→</button>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+
+                <h2 class="about_title title"></h2>
+
+                <p class="about_text"></p>
+
+                <div class="about_stats">
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="subscribe-placeholder"></div>
+
+        
+    </main>
+
+    <div class="footer-placeholder"></div>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/load_blocks.js"></script>
+    <script src="../js/subscribe.js"></script>
+</body>
+</html>

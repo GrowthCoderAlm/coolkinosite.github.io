@@ -1,0 +1,51 @@
+@media(prefers-color-scheme: light)
+{
+    :root{
+    --color-bg: rgb(245, 245, 245);
+    --color-main-opacity: rgba(245, 245, 245, .7);
+    --color-menues: rgb(230, 230, 230);
+    --color-buttons: rgb(180, 180, 180);
+    --color-active: rgb(255, 163, 26);
+    --color-text: rgb(27, 27, 27);
+    --color-button-hover: rgb(247, 148, 14);
+    --color-buttons-disabled: rgb(200, 200, 200);
+    }
+}
+
+@media (max-width: 1510px) {
+    .container{
+        max-width: 1300px;
+    }
+}
+
+@media (max-width: 1310px) {
+    .container{
+        max-width: 1100px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .container{
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 910px) {
+    .container{
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 710px) {
+    .header_cta{
+        display: none;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .header_button-change-theme{
+        display: none;
+    }
+}
