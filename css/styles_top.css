@@ -1,0 +1,128 @@
+:root{
+    --color-bg: rgb(27,27,27);
+    --color-main-opacity: rgba(27,27,27, .7);
+    --color-menues: rgb(41,41,41);
+    --color-buttons: rgb(128,128,128);
+    --color-active: rgb(255,163,26);
+    --color-text: rgb(255, 255, 255);
+    --color-button-hover: rgb(247, 148, 14);
+    --color-buttons-disabled: rgb(24,24,24);
+
+    --margin-components: 20px 30px;
+    --transition: all .2s ease-in;
+}
+
+
+
+.filters_wrapper{
+    background-color: var(--color-menues);
+    margin: var(--margin-components);
+    display: flex;
+    text-align: center;
+    padding: 16px 0 16px;
+    border-radius: 5px;
+}
+
+.films_title{
+    margin-right: auto;
+}
+
+.filters_inputs{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.filters_input{
+    border: 1px, solid var(--color-active);
+    background-color: var(--color-bg);
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-size: 16px;
+    outline: none;
+    color: var(--color-text)    ;
+}
+
+.filters_input::placeholder{
+    color: var(--color-text);
+}
+
+.filters_input.input-year{
+    width: 120px;
+}
+
+.films_cards{
+    margin: var(--margin-components);
+    padding: 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.film_card{
+    background-color: var(--color-menues);
+    width: 1240px;
+    padding: 0 0 0;
+    margin-top: auto;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    color: var(--color-text);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+.film_card:hover {
+    background-color: var(--color-menues);
+}
+
+.film_card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.top_rating-place{
+    width: 100px;
+    height: 100%;
+    padding: 0px;
+    background-color: var(--color-active);
+    color: var(--color-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.grandPlace{
+    color: var(--color-bg);
+}
+.topPlace{
+    color: var(--color-main-opacity);
+}
+.middlePlace{
+    color: var(--color-buttons-disabled);
+}
+
+
+.film_card-head{
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    margin: 10px 5px 10px;
+}
+
+.film_card-body{
+    display: block;
+    
+    margin: 25px 5px 10px;
+}
+
+.film_card-stars{
+    font-size: x-large;
+    margin-top: auto;
+    margin-bottom: 10px;
+}

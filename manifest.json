@@ -1,0 +1,10 @@
+{
+  "name": "Киносайт",
+  "short_name": "Киносайт",
+  "theme_color": "#ffa31a",
+  "background_color": "#1b1b1b",
+  "display": "browser",
+  "orientation": "landscape",
+  "scope": "/",
+  "start_url": "/"
+}
